@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+  background: #0f1115;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 10px;
+  background: #4f8cff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+details {
+  background: #1a1f2a;
+  padding: 10px;
+  margin: 10px auto;
+  width: 60%;
+  border-radius: 8px;
+}
