@@ -84,6 +84,19 @@ p {
 
 .comparison-section {
   margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  width: 100%;
+}
+
+.comparison-tabs {
+  display: flex;
+  justify-content: center; 
+  gap: 15px; 
+  margin-bottom: 25px;
+  width: 100%;
 }
 
 .tab-button {
@@ -111,6 +124,9 @@ p {
 
 .comparison-panel {
   display: none;
+  width: 100%;
+  max-width: 1000px; 
+  margin: 0 auto;    /* Centers the panel */
 }
 
 .comparison-panel.active {
@@ -120,10 +136,11 @@ p {
 .comparison-table {
   width: 100%;
   border-collapse: collapse;
-  background: rgba(20, 28, 45, 0.9);
+  background: rgba(20, 28, 25, 0.9);
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+  margin: 0 auto; 
 }
 
 .comparison-table th,
@@ -135,7 +152,8 @@ p {
 
 .comparison-table th:first-child,
 .comparison-table td:first-child {
-  text-align: left;
+  text-align: left; 
+  
   font-weight: 600;
 }
 
@@ -165,13 +183,12 @@ p {
     flex-direction: column;
     align-items: center;
   }
-
   .comparison-table {
     font-size: 0.9rem;
   }
-
   .comparison-table th,
   .comparison-table td {
     padding: 12px 10px;
   }
 }
+
